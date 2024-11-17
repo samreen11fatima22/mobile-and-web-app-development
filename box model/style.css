@@ -1,0 +1,18 @@
+div{
+    background-color: rgb(107, 202, 246);
+    width: 40%;
+    border: 10px groove black;
+    padding: 40px;
+    border-radius: 1000px;
+    margin: auto;
+    padding-inline: 180px;
+
+}
+ul > li{
+    display: inline-block;
+    /* background-color: yellow; */
+    width: 150px;
+    margin: auto;
+    padding: 30px;
+    /* font-size:; */
+}
