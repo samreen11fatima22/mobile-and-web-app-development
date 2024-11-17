@@ -1,0 +1,42 @@
+.main{
+    background-color: black;
+    color: rgb(13, 12, 12);
+    /* display: inline-block; */
+    padding: 5px;
+    display: flex;
+    /* flex-direction: row-reverse; */
+    /* flex end= at the end of flex it will move  and flex start= at starting point */
+    justify-content: flex-end;
+    align-items: flex-start;
+    align-items: flex-end;
+    align-items: flex-start;
+    
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.one{
+    background-color: aqua;
+    /* align-self: flex-start; */
+    order: 2;
+    
+}
+.two{
+    background-color: blue;
+    order: 2;
+}
+.three{
+    background-color: rgb(35, 209, 76);
+    /* align-self: center; */
+    /* order:1 ; */
+    order: 1;
+}
+.four{
+    background-color: yellow;
+}
+.five{
+    order: -1;
+    background-color: palevioletred;
+}
