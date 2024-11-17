@@ -1,0 +1,47 @@
+*{
+    margin: 0;padding: 0;
+}
+body{
+    background-color: gray;
+}
+
+ul{
+    background-color: blue;
+    color: white;
+    position: sticky;
+    top: 0px;
+
+}
+ul li{
+    display: inline-block;
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.black{
+background-color: black;
+width: 100px;
+height: 100px;
+display: inline-block;
+
+}
+.white{
+    background-color:white;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    
+    }
+
+    /* position absolute vs position relative most imp question about interview */
+    img{
+
+        /* position: absolute;
+        top: 10px;
+        right: 20px; */
+        position: relative;
+        /* top: 40px; */
+        left: 100px;
+        bottom: 30px;
+    }
